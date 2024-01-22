@@ -1,3 +1,7 @@
+# Name: Connor Warner
+# Class: CIS 218
+# Date: 1/24/24
+
 """django_project URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:

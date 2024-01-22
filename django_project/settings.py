@@ -1,3 +1,7 @@
+# Name: Connor Warner
+# Class: CIS 218
+# Date: 1/24/24
+
 """
 Django settings for django_project project.
 
