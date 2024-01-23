@@ -4,10 +4,47 @@ Class: CIS 218
 Date: 1/24/24
 -->
 
-<!-- Pulls from base.html as a base template-->
+<!-- Pulls from base.html as a base template -->
 {% extends "base.html" %}
 
-
+<!-- Contact page content -->
 {% block content %}
-<h1>Contact</h1>
+<div class="container px-4 py-5" id="hanging-icons">
+    <h2 class="pb-2 border-bottom">Contact Information</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
+        </div>
+        <div>
+          <h3 class="fs-2">Direct Contact</h3>
+          <p>Phone: (269) 929-5018</p>
+          <p>Personal Email: con.war10@gmail.com</p>
+          <p>School Email: cwarner0028@mail.kvcc.edu</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#cpu-fill"></use></svg>
+        </div>
+        <div>
+          <h3 class="fs-2">LinkedIn</h3>
+          <a href="https://linkedin.com/in/connor-warner-223650265" class="btn btn-primary">
+            LinkedIn
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#tools"></use></svg>
+        </div>
+        <div>
+          <h3 class="fs-2">GitHub</h3>
+          <a href="https://github.com/CWarner101" class="btn btn-primary">
+            GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
 {% endblock content %}
