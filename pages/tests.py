@@ -29,9 +29,8 @@ class HomepageTest(SimpleTestCase):
 
     def test_template_content(self):
         """Test template content"""
-        # responce = self.client.get(reverse("home"))
-        # self.assertContains(responce, "TODO: Add content")
-        pass
+        responce = self.client.get(reverse("home"))
+        self.assertContains(responce, '<h1 class="display-5 fw-bold">Connor Warner</h1>')
 
 
 class ProjectspageTest(SimpleTestCase):
@@ -55,9 +54,8 @@ class ProjectspageTest(SimpleTestCase):
 
     def test_template_content(self):
         """Test template content"""
-        # responce = self.client.get(reverse("projects"))
-        # self.assertContains(responce, "TODO: Add content")
-        pass
+        responce = self.client.get(reverse("projects"))
+        self.assertContains(responce, '<h2 class="pb-2 border-bottom">Projects</h2>')
 
 
 class ContactpageTest(SimpleTestCase):
@@ -81,6 +79,6 @@ class ContactpageTest(SimpleTestCase):
 
     def test_template_content(self):
         """Test template content"""
-        # responce = self.client.get(reverse("projects"))
-        # self.assertContains(responce, "TODO: Add content")
-        pass
+        responce = self.client.get(reverse("contact"))
+        self.assertContains(responce, '<h2 class="pb-2 border-bottom">Contact Information</h2>')
+        
