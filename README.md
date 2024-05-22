@@ -1,4 +1,4 @@
-Static Personal Django Site
+## Static Personal Django Site
 
 This is a project that I worked on for a class about web applications and Django
 
