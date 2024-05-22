@@ -1,5 +1,7 @@
 Static Personal Django Site
 
+This is a project that I worked on for a class about web applications and Django
+
 ## Author
 Connor Warner
 
@@ -9,13 +11,10 @@ Connor Warner
 This site is comprised of 3 simple HTML pages. The first acts as an informal resume. The second explains projects that I had previously worked on at that time. The last page includes contact information for possible employer usage.
 
 
-Tests simply act to ensure that 
+Tests simply act to ensure that the templates exist at the correct URL on a local host and that the content of the page exists on the proper page.
 
-Add required files and settings for publishing the site on Heroku. Fully hosting is worth extra credit. If doing so, submit the URL for the site to Canvas as the submission for this assignment. Regardless of extra credit, have your most recent commit pushed up to GitHub.
+Settings for deployment through Heroku are also implemented.
 
-Ensure that you have a `requirements.txt` file with your required packages. I will not grade the assignment if I can't restore the packages easily!
-
-The program should allow the following functionality:
 
 
 
@@ -25,4 +24,4 @@ Bootstrap
 
 ## Known Problems, Issues, And/Or Errors in the Program
 
-
+None
